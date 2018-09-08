@@ -1,0 +1,22 @@
+{
+    "name": "user/wx-hj",
+	"description": "try make a composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huangjie",
+            "email": "huangjie@ymify.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Test\\Rose\\": "src/TestPath/Rose",
+			"Test\\Lily\\": "src/TestPath/Lily"
+		}
+	}
+}
